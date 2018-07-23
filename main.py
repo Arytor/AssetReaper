@@ -89,10 +89,10 @@ class rbx():
 					if (aid):
 						return aid.group(1)
 				elif ('later' in uploadRequest.url):
-					print '-- UPLOAD BALANCING --'
+					print('-- UPLOAD BALANCING --')
 					time.sleep(60)
 				else:
-					print 'ERROR:: unknown, {}'.format(uploadRequest.url)
+					print('ERROR:: unknown, {}'.format(uploadRequest.url))
 					
 		except:
 			pass

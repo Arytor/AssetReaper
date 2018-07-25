@@ -17,7 +17,7 @@ except:
 
 
 settings = json.loads(open('./settings/settings', 'r').read())
-accounts = open('./settings 1/accounts', 'r').read().splitlines()
+accounts = open('./settings/accounts', 'r').read().splitlines()
 sessions = []
 accountIndex = 0
 

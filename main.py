@@ -160,7 +160,7 @@ def start_upload():
 		if (session.set_details(username, password) == True):
 			sessions.append(session)
 		else:
-			print 'Invalid account: {}'.format(username)
+			print 'Invalid account'
 
 	for filename in os.listdir('./files'):
 		name, typeId = base58.b58decode(filename.replace('.png', '')).split('_!_')

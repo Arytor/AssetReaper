@@ -1,8 +1,9 @@
 #!/usr/bin/env python2.7
 # encoding: utf-8
 
-# Asset Reaper
-# Originally made by Adrian, fixed by Sparkles
+# Asset Reaper for Android
+# Made by Newtrat
+#Credits to Adrian and Sparkles
 
 
 try:
